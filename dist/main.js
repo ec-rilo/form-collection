@@ -76,7 +76,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
 
 
-
 })();
 
 /******/ })()
