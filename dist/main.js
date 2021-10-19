@@ -55,6 +55,34 @@ const hamBtnLogic = (() => {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (hamBtnLogic);
 
 
+/***/ }),
+
+/***/ "./src/modules/vertical-dd.js":
+/*!************************************!*\
+  !*** ./src/modules/vertical-dd.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const ddLogic = (() => {
+  const hamBtn = document.querySelector('.nav-icon4');
+  const ddMenu = document.querySelector('.dd-menu');
+
+  function toggleDDMenu() {
+    ddMenu.classList.toggle('open-dd');
+  }
+
+  hamBtn.addEventListener('click', () => {
+    ddMenu.classList.toggle('open-dd');
+  });
+})();
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ddLogic);
+
+
 /***/ })
 
 /******/ 	});
@@ -123,6 +151,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_reset_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/reset.css */ "./src/styles/reset.css");
 /* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
 /* harmony import */ var _modules_ham_btn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/ham-btn */ "./src/modules/ham-btn.js");
+/* harmony import */ var _modules_vertical_dd__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/vertical-dd */ "./src/modules/vertical-dd.js");
+
 
 
 
