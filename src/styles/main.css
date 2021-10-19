@@ -164,3 +164,29 @@
   height: 50px;
   background-color: #0083ff;
 }
+
+.form-container {
+  max-width: 1000px;
+  height: 200px;
+  margin: 10px auto 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.intro-text-container {
+  padding-top: 80px;
+}
+
+.intro-text-container > h1 {
+  font-family: 'Roboto-Bold';
+  font-size: 2.5rem;
+  line-height: 1.3;
+}
+
+.intro-text-complementary-text {
+  margin-top: 15px;
+  font-family: 'Roboto-Regular';
+  font-size: 1.5rem;
+  color: #8d8d8d;
+  line-height: 1.3;
+}
