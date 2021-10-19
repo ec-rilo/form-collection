@@ -149,7 +149,7 @@
   height: 250px;
   border-radius: 0 0 50px 50px;
   border: 2px solid #c4c4c4;
-  transition: margin-top 1s;
+  transition: margin-top 0.5s;
   margin-top: -300px;
 }
 
