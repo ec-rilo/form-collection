@@ -184,6 +184,7 @@ table {
 }
 
 .dd-container {
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
@@ -192,6 +193,7 @@ table {
   overflow: hidden;
   height: 260px;
   width: 150px;
+  border-top: 2px solid #c4c4c4;
 }
 
 .dd-menu {
@@ -212,7 +214,7 @@ table {
 
 /* Makes the dd-menu disappear */
 .dd-menu.open-dd {
-  margin-top: 0;
+  margin-top: -2px;
 }
 
 .dd-menu > li {
