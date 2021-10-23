@@ -231,6 +231,7 @@ input {
   border: 0px none;
   color: black;
 }
+
 form ul li > div {
   background-color: #f1f1f1;
   padding: 5px 15px 5px 15px;
@@ -246,6 +247,7 @@ form ul li > div {
 }
 
 .error-message {
+  opacity: 0;
   margin-left: 25px;
   font-family: 'Roboto-Regular';
   color: #ff4545;
@@ -300,4 +302,10 @@ footer > p {
 
 .gh-link {
   color: #0083ff;
+}
+
+.submit-popup-card {
+  height: 100px;
+  width: 50px;
+  background-color: black;
 }
