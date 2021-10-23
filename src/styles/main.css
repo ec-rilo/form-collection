@@ -305,7 +305,54 @@ footer > p {
 }
 
 .submit-popup-card {
+  pointer-events: none;
+  opacity: 0;
+  margin-top: -20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 250px;
+  width: 350px;
+  background-color: #fff;
+  border: 5px solid #0083ff;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-right: 25px;
+  transition: opacity 2s, margin-top 2s;
+}
+
+.submit-popup-card > p {
+  font-family: 'Roboto-Bold';
+  font-size: 2.5rem;
+}
+
+.submit-popup-card > div {
+  margin-top: 10px;
+}
+
+.submit-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #8d8d8d;
+  font-family: 'Roboto-Medium';
+  gap: 10px;
+}
+
+.submit-text-container > div > p:nth-child(2) {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.submit-text-container > img {
+  width: 100px;
   height: 100px;
-  width: 50px;
-  background-color: black;
+  object-fit: cover;
+}
+
+.submit-popup-card.open-card {
+  opacity: 1;
+  margin-top: 0;
 }
