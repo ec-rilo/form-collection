@@ -63,6 +63,17 @@ const formLogic = (() => {
     }
   }
 
+  function submitForm() {
+    const submitPopup = document.querySelector('.submit-popup-card');
+    submitPopup.style.pointerEvents = 'auto';
+    submitPopup.classList.add('open-card');
+    const popupTimeOut = setTimeout(() => {
+      submitPopup.style.pointerEvents = 'none';
+      submitPopup.classList.remove('open-card');
+      clearTimeout(popupTimeOut);
+    }, 5000);
+  }
+
   function checkInputs() {
     const userEmail = formInputFactory('email', 'email-label');
     const userName = formInputFactory('name', 'name-label');
@@ -85,6 +96,7 @@ const formLogic = (() => {
     let formCompleted = checkFormCompletion(inputArr, count);
     if (formCompleted === true) {
       resetForm(inputArr);
+      submitForm();
     } else {
       inputArr.forEach((userInput) => {
         if (!userInput.elem.validity.valid) {
