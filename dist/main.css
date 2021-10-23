@@ -306,8 +306,8 @@ form ul li > div {
 }
 
 .submit-btn {
-  width: 100px;
-  height: 35px;
+  width: 150px;
+  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -316,6 +316,11 @@ form ul li > div {
   font-family: 'Roboto-Regular';
   font-size: 1.5rem;
   cursor: pointer;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 5px;
 }
 
 footer {

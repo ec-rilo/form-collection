@@ -41,36 +41,42 @@
           <ul class="form-data-container">
             <li>
               <label for="name">Name:</label>
-              <div><input type="text" id="name" name="user_name" /></div>
+              <div>
+                <input type="text" id="name" name="user_name" required />
+              </div>
             </li>
             <li>
               <label for="email">Email:</label>
-              <div><input type="email" id="email" name="user_email" /></div>
+              <div>
+                <input type="email" id="email" name="user_email" required />
+              </div>
             </li>
             <li>
               <label for="country">Country:</label>
-              <div><input type="text" id="country" name="user_country" /></div>
+              <div>
+                <input type="text" id="country" name="user_country" required />
+              </div>
             </li>
             <li>
               <label for="zip">Zip Code:</label>
-              <div><input type="text" id="zip" name="user_zip" /></div>
+              <div><input type="text" id="zip" name="user_zip" required /></div>
             </li>
             <li>
-              <label for="password">Password:</label>
+              <label for="user-pass">Password:</label>
               <div>
-                <input type="text" id="password" name="user_password" />
+                <input type="text" id="password" name="user-pass" required />
               </div>
             </li>
             <li>
               <label for="password-conf">Password Confirmation:</label>
-              <div><input type="text" id="password-conf" /></div>
+              <div><input type="text" id="password-conf" required /></div>
             </li>
             <li>
               <p class="error-message">
                 Please make sure your passwords match.
               </p>
             </li>
-            <li><div class="submit-btn">Submit</div></li>
+            <li><button type="submit" class="submit-btn">Submit</button></li>
           </ul>
         </form>
       </div>
